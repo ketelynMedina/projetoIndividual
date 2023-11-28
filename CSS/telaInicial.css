@@ -1,0 +1,68 @@
+/* importações  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+/* configurações para o corpo inteiro do html */
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #2D2F39;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* estilização do navbar */
+
+/* logo CD */
+.caixaLogo .logo{
+    width: 100px;
+    height: 100px;
+    transform: rotate(-90.474deg);
+    flex-shrink: 0;
+    position: absolute;
+    top: 17px;
+    left: 20px;
+}
+
+/* linha que acompanha do logo */
+.caixaLogo hr{
+    height: 5px;
+    background: #CCB6DA;
+    border-style: none;
+    margin-top: -3px;
+}
+
+/* textos do menu */
+.caixaTxt ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: #B7BFE4;
+}
+
+/* links que ficam dentro da lista do menu */
+.menu a{
+    text-decoration: none;
+    color: #B7BFE4;
+    /* position: relative; */
+}
+
+/* caixa que contem as div com os links do menu */
+.caixaTxt{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 435px;
+}
+
+/* tela inicial */
+.telaInicial{
+    /* background-image:url(https://th.bing.com/th/id/R.92ceb7be84af86eb382aab7be6cb86e3?rik=EVqTG1bEAYaMkA&pid=ImgRaw&r=0); */
+    /* background: url(https://cdn.mos.cms.futurecdn.net/zTBFHKdgB7eGuVmABnBsEi.jpg), lightgray 50% / cover no-repeat; */
+    background: url(/CSS/Quotes\ From\ Pearl\ 1.png);
+    /* width: 1358px; */
+    /* height: 585px; */
+}
+
+.txtTelaInicial p {
+    MARGIN-TOP: -8px;
+    color: beige;
+}
