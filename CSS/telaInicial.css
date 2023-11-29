@@ -28,6 +28,7 @@ body{
     background: #CCB6DA;
     border-style: none;
     margin-top: -3px;
+    margin-bottom: 0px;
 }
 
 /* textos do menu */
@@ -43,8 +44,16 @@ body{
 .menu a{
     text-decoration: none;
     color: #B7BFE4;
-    /* position: relative; */
 }
+
+/* #img1{
+    display: none;
+}
+
+#img1:hover{
+    display: inline;
+    transition: 0.3s;
+} */
 
 /* caixa que contem as div com os links do menu */
 .caixaTxt{
@@ -55,14 +64,25 @@ body{
 
 /* tela inicial */
 .telaInicial{
-    /* background-image:url(https://th.bing.com/th/id/R.92ceb7be84af86eb382aab7be6cb86e3?rik=EVqTG1bEAYaMkA&pid=ImgRaw&r=0); */
-    /* background: url(https://cdn.mos.cms.futurecdn.net/zTBFHKdgB7eGuVmABnBsEi.jpg), lightgray 50% / cover no-repeat; */
-    background: url(/CSS/Quotes\ From\ Pearl\ 1.png);
-    /* width: 1358px; */
-    /* height: 585px; */
+    background: url(./img/Pearl.png);
+    width: 1343px;
+    height: 690px;
 }
 
+/* configurações do paragrafo da 1 tela */
 .txtTelaInicial p {
-    MARGIN-TOP: -8px;
-    color: beige;
+    margin-top: -1px;
+    color: #D9D9D9;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    width: 355px;
+    height: 152px;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 435px;
+    padding-left: 69px;
 }
