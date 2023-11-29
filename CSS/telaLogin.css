@@ -1,0 +1,130 @@
+/* importações  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+/* configurações para o corpo inteiro do html */
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #2D2F39;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* estilização do navbar */
+
+/* logo CD */
+.caixaLogo .logo{
+    width: 100px;
+    height: 100px;
+    transform: rotate(-90.474deg);
+    flex-shrink: 0;
+    position: absolute;
+    top: 11px;
+    left: 20px;
+}
+
+/* linha que acompanha do logo */
+.caixaLogo hr{
+    height: 5px;
+    background: #CCB6DA;
+    border-style: none;
+    margin-top: -3px;
+    margin-bottom: 0px;
+}
+
+/* textos do menu */
+.caixaTxt ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: #B7BFE4;
+}
+
+/* links que ficam dentro da lista do menu */
+.menu a{
+    text-decoration: none;
+    color: #B7BFE4;
+}
+
+/* caixa que contem as div com os links do menu */
+.caixaTxt{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 922px;
+}
+
+/* conteiner que mantem todos os circulos da tela login */
+.conteiner{
+    display: flex;
+    justify-content: center;
+}
+
+/* circulo principal onde tem informações do login */
+.circuloLogin {
+    width: 400px;
+    height: 400px;
+    background: #CCB6DA;
+    border-radius: 50%;
+    position: absolute;
+    right: 455px;
+    bottom: 145px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+/* circulo pequeno do lado inferior direito para conectar o usuario */
+.circuloEntrar{
+    width: 130px;
+    height: 130px;
+    background: #CCB6DA;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 420px;
+    margin-left: 270px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+}
+
+/* circulo pequeno do lado inferior esquerdo para cadastrar o usuario */
+.circuloCadastrar{
+    width: 130px;
+    height: 130px;
+    background: #EBBDD9;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 420px;
+    margin-left: -383px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 21px;
+}
+
+p{
+    color: #B7BFE4;
+}
+
+.circuloLogin input{
+    height: 41px;
+    width: 316px;
+    border: NONE;
+    border-radius: 3px;
+    background: rgba(217, 217, 217, 0.50);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.circuloLogin img{
+    width: 50px;
+    height: 50px;
+}
+
+.loginAlign {
+    position: absolute;
+    top: 95px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
