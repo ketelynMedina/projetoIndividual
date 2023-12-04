@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
 
 /* configurações para o corpo inteiro do html */
-body{
+body {
     margin: 0px;
     padding: 0px;
     background-color: #2D2F39;
@@ -12,7 +12,7 @@ body{
 /* estilização do navbar */
 
 /* logo CD */
-.caixaLogo .logo{
+.caixaLogo .logo {
     width: 100px;
     height: 100px;
     transform: rotate(-90.474deg);
@@ -23,7 +23,7 @@ body{
 }
 
 /* linha que acompanha do logo */
-.caixaLogo hr{
+.caixaLogo hr {
     height: 5px;
     background: #CCB6DA;
     border-style: none;
@@ -32,7 +32,7 @@ body{
 }
 
 /* textos do menu */
-.caixaTxt ul{
+.caixaTxt ul {
     list-style: none;
     display: flex;
     justify-content: flex-end;
@@ -41,31 +41,24 @@ body{
 }
 
 /* links que ficam dentro da lista do menu */
-.menu a{
+.menu a {
     text-decoration: none;
     color: #B7BFE4;
 }
 
-/* #img1{
-    display: none;
-}
-
-#img1:hover{
-    display: inline;
-    transition: 0.3s;
-} */
-
 /* caixa que contem as div com os links do menu */
-.caixaTxt{
+.caixaTxt {
     display: flex;
     justify-content: space-around;
     padding-left: 435px;
 }
 
-/* tela inicial */
-.telaInicial{
+/* estlização da parte 1 da tela inicial */
+
+/* tela inicial - div completa */
+.telaInicial {
     background: url(./img/Pearl.png);
-    width: 1343px;
+    width: 1303px;
     height: 690px;
 }
 
@@ -86,3 +79,6 @@ body{
     padding-top: 435px;
     padding-left: 69px;
 }
+
+/* estilização da segunda parte da tela inicial */
+
