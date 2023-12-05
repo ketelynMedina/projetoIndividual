@@ -7,6 +7,10 @@
     <link rel="stylesheet" href="CSS/telaInicial.css">
     <link rel="stylesheet" href="JS/telaInicial.js">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="CSS/testeG_1.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
     <title>DKD</title>
 </head>
 
@@ -64,8 +68,101 @@
 
     <!-- tela inicial - 2pt -->
 
+    <div class="telaToda2">
+
+        <div class="caixaPrincipal1">
+            <div class="esquerdoDiv1">30 inscritos <img src="CSS/img/Conference.png" alt=""></div>
+            <div class="esquerdoDiv2">
+                <canvas id="telaNova"></canvas>
+            </div>
+            <div class="esquerdoDiv3"><a href="telaLogin.html">Fazer parte da comunidade também :D</a></div>
+        </div>
+
+        <div class="caixaPrincipal2">
+            <div class="direitoDiv1">+30 Filmes Inseridos</div>
+            <div class="direitoDiv2">
+                <img src="CSS/img/teteCarrossel/interestelar.jpg" class="img1">
+                <img src="CSS/img/teteCarrossel/lindaMulher.jpg" class="img2">
+                <img src="CSS/img/teteCarrossel/coraline.jpg" class="img3">
+                <img src="CSS/img/teteCarrossel/asBranquelas.jpg" class="img4">
+                <img src="CSS/img/teteCarrossel/eraDoGelo4.jpg" class="img5">
+            </div>
+            <div class="direitoDiv3"><a href="#">Mande dicas de filmes para adicionarmos  :P</a></div>
+        </div>
+
+    </div>
+
+    <hr>
+
+    <!-- tela inicial - pt3 -->
+
+    <div class="telaToda3">
+
+        <div class="caixa1">
+            <div class="div1_caixa1">
+                <img src="CSS/img/Pause.png">
+                De uma pausa e explore a DKD.
+            </div>
+        </div>
+
+        <div class="caixa2">
+            <div class="div1_caixa2">
+                Conheça mais sobre o DKD e a nossa história de criação :D
+                <img src="CSS/img/Love.png">
+            </div>
+            <div class="div2_caixa2">
+                Crie listas dos seus filmes favoritos
+                <img src="CSS/img/Playlist.png">
+            </div>
+        </div>
+
+        <div class="caixa3">
+            <div class="div1_caixa3">
+                Descubra filmes novos e comente eles junto com outras pessoas
+                <img src="CSS/img/Movie Projector.png">
+            </div>
+        </div>
+
+    </div>
+
+    <hr>
+    <hr>
+
+    <!-- footer :D - estoy louca -->
+
+    <div class="telaToda4">
+
+
+        <div>
+            <img src="CSS/img/Instagram.png">
+            <img src="CSS/img/GitHub.png">
+            <img src="CSS/img/emailFooter.png">
+        </div>
+        <div class="fraseFooter">
+            “Mas eu não quero ficar entre malucos. ” <br> “Não tem como evitar. Quase todos são malucos por aqui.” <br><br>
+            - alice no país das maravilhas
+        </div>
+        <div>
+            <img src="CSS/img/CD.png" alt="">
+        </div>
+
+    </div>
 
 </body>
 
 </html>
 
+<script>
+    // Recupera o objeto de configuração do armazenamento local
+    const storedConfig = localStorage.getItem('chartConfig');
+    const config = storedConfig ? JSON.parse(storedConfig) : null;
+
+    if (config) {
+        // Atualiza o ID do canvas para evitar conflitos com a página anterior
+        // config.options.plugins.legend.display = true; // Exibe a legenda na nova página, se necessário
+        const telaNova = new Chart(
+            document.getElementById('telaNova'),
+            config
+        );
+    }
+</script>

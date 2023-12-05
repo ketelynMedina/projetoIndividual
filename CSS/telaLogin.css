@@ -147,12 +147,14 @@ p{
 .ipt_email{
     display: flex;
     align-items: center;
+    
 }
 
 .ipt_senha{
     display: flex;
     align-items: center;
     padding-top: 70px;
+    
 }
 
 #imgEmail{
@@ -162,4 +164,12 @@ p{
 #imgSenha{
     padding-left: 9px;
     padding-right: 18px;
+}
+
+input{
+    padding: 10px;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    outline: none;
 }

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste para gráficos do DKD</title>
+
+    <link rel="stylesheet" href="CSS/testeG_1.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+</head>
+
+<body>
+
+    <div class="telaI">
+        <canvas id="telaInicial"></canvas>
+    </div>
+
+</body>
+
+</html>
+
+<script>
+
+    // dimensões do g
+    const labels = [
+        'Inscritos',
+    ];
+
+    // variavel labels pega o valor da const de cima
+    // datasets == linha
+    const data = {
+        labels: labels,
+        datasets: [{
+            label: 'Inscritos DKD',
+            // cor bolinha
+            backgroundColor: '#EBBDD9',
+            // cor linha
+            borderColor: '#EBBDD9',
+            // borderWidth: 100,
+            // borderDash: [0.5],
+            // dados
+            data: [5, 100],
+        }]
+    };
+
+    const config = {
+        type: 'bar',
+        data,
+        options: {
+            indexAxis: 'y',
+            maintainAspectRatio: false,
+            scales: {
+                x: {
+                    display: false, // Oculta o eixo X
+                },
+                y: {
+                    display: false, // Oculta o eixo Y
+                }
+            },
+            plugins: {
+                legend: {
+                    display: false, // Oculta a legenda
+                }
+            }
+        }
+    };
+
+</script>
+
+<script>
+
+    // renderiza o gráfico
+    const telaInicial = new Chart(
+        document.getElementById('telaInicial'),
+        config
+    );
+
+    // Salva o objeto de configuração no armazenamento local
+    localStorage.setItem('chartConfig', JSON.stringify(config));
+
+</script>

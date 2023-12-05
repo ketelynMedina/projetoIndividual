@@ -23,7 +23,7 @@ body {
 }
 
 /* linha que acompanha do logo */
-.caixaLogo hr {
+hr {
     height: 5px;
     background: #CCB6DA;
     border-style: none;
@@ -58,7 +58,7 @@ body {
 /* tela inicial - div completa */
 .telaInicial {
     background: url(./img/Pearl.png);
-    width: 1303px;
+    width: 1349px;
     height: 690px;
 }
 
@@ -82,3 +82,198 @@ body {
 
 /* estilização da segunda parte da tela inicial */
 
+/* caixa que pega todas as div */
+.telaToda2{
+    padding-top: 111px;
+    height: 465px;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* div do lado esquerdo com os inscritos */
+.caixaPrincipal1{
+    color: #D9D9D9;
+}
+
+.caixaPrincipal1 img{
+    width: 50px;
+    height: 50px;
+    margin-left: 45px;
+}
+
+.esquerdoDiv1{
+    display: flex;
+    align-items: center;
+    font-size: 50px;
+    margin-left: -57px;
+    margin-bottom: 20px;
+}
+
+.esquerdoDiv2{
+    border-radius: 5px;
+    background: #575965;
+    margin-bottom: 50px;
+    margin-left: -37px;
+    width: 367px;
+    height: 180px;
+}
+
+.caixaPrincipal1 a{
+    text-decoration: none;
+    color: #D9D9D9;
+    margin-left: -50px;
+}
+
+/* div do lado direito com os inscritos */
+
+.caixaPrincipal2 {
+    color: #D9D9D9;
+}
+
+.direitoDiv1{
+    display: flex;
+    align-items: center;
+    font-size: 50px;
+    margin-left: 73px;
+    margin-bottom: 40px;
+}
+
+.direitoDiv2 img {
+    width: 120px;
+    height: 160px;
+    margin-bottom: 44px
+}
+
+.img1{
+    margin-right: 10px;
+}
+
+.img2{
+    margin-right: 10px;
+}
+
+.img3{
+    margin-right: 10px;
+}
+
+.img4{
+    margin-right: 10px;
+}
+
+.direitoDiv3 a{
+    text-decoration: none;
+    color: #D9D9D9;
+}
+
+/* estilização da Terceira parte da tela inicial */
+
+.telaToda3{
+    padding-top: 60px;
+    padding-bottom: 200px;
+    height: 465px;
+}
+
+.caixa1{
+    color: #D9D9D9;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.div1_caixa1{
+    margin-left: 100px;
+    display: flex;
+    align-items: center;
+    width: 339px;
+}
+
+.caixa2{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.caixa2 img{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    padding-top: 100px;
+    padding-left: 250px
+}
+
+.div1_caixa2{
+    background: #575965;
+    width: 199px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+
+    color: #D9D9D9;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.div2_caixa2{
+    background: #575965;
+    width: 199px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+
+    color: #D9D9D9;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.caixa3{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.caixa3 img{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    padding-top: 100px;
+    padding-left: 250px
+}
+
+.div1_caixa3{
+    background: #575965;
+    width: 199px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+
+    color: #D9D9D9;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* FOOTER */
+
+.telaToda4{
+    display: flex;
+    height: 111px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.telaToda4 img{
+    width: 40px;
+    height: 40px;
+}
+
+.fraseFooter{
+    width: 815px;
+    padding-top: 20px;
+
+    color: #D9D9D9;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
